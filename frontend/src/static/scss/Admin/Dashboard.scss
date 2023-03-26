@@ -1,0 +1,63 @@
+@import '../variables';
+.dashboard {
+    &-top {
+        margin-top: 1%;
+        &-image {
+            width: 50%;
+            height: auto;
+            object-fit: contain;
+            background-size: cover;
+            margin-left: 1.7rem;
+        }
+        &-logo {
+            width: 70%;
+            height: auto;
+            object-fit: contain;
+            background-size: cover;
+            margin-left: 1.2rem;
+        }
+        &-department {
+            padding-top: 0.5rem;
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+        &-name {
+            font-size: 2rem;
+            font-weight: bold;
+            color: $tertiary;
+            padding-top: 0.25rem;
+        }
+    }
+    &-mid {
+        padding-top: 1.2rem;
+        &-buttons {
+            min-width: 100% !important;
+            border: 1px solid rgba(0, 0, 0, 0.2) !important;
+            text-transform: none !important;
+            display: flex;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+            font-family: 'Poppins' !important;
+            font-size: 1.2rem !important;
+            &-icon {
+                font-size: 10rem !important;
+                font-weight: bold;
+                color: $tertiary;
+            }
+        }
+        .stats {
+            padding: 1.3rem;
+            border: 1px solid rgba(0, 0, 0, 0.2) !important;
+            &-heading {
+                font-size: 1.2rem;
+                font-weight: 500;
+            }
+            &-value {
+                font-size: 2rem;
+                font-weight: bold;
+                color: $tertiary;
+            }
+        }
+    }
+}
