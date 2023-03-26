@@ -19,13 +19,12 @@ The basic workflow is
 
 #### Frontend
 
-- ReactJS + Material UI
+- ReactJS  
 - Web3.js
+- Material UI
 
 #### Backend
 - Solidity
 - IPFS
 - Truffle
-
-
 
